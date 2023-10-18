@@ -2,6 +2,6 @@
 import 'package:flutter/material.dart';
 
 sealed class Constants {
-  static const backgrounColor = Color(0xF4F4F4);
-  static const buttonColor = Color(0x4F7CAC);
+  static const backgroundColor = Color(0x00f4f4f4);
+  static const buttonColor = Color(0x004f7cac);
 }
