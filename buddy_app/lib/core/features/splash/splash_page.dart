@@ -25,7 +25,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Constants.backgroundColor,
+      backgroundColor: const Color.fromARGB(255, 244, 244, 244),
       body: DecoratedBox(
         decoration: const BoxDecoration(color:  Constants.backgroundColor),
         child: Center(
@@ -47,7 +47,7 @@ class _SplashPageState extends State<SplashPage> {
             ),
             child: AnimatedContainer(
               duration: const Duration(seconds: 1),
-              child: Image.asset('assets/images/buddyLogo.jpg'),
+              child: Image.asset('assets/images/logo.jpg'),
             ),
           ),
         ),
